@@ -89,6 +89,12 @@ a.link:hover{
     
 }
 
+.searchbar:hover,
+.searchbar:focus-within {
+  border-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
 .search-icon {
     font-size: 18px;
     color: #9aa0a6;
